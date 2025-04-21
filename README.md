@@ -14,7 +14,7 @@
 
 ---
 
-### 2. 🎨 レイアウトテンプレートの作成（共通UI）
+### 2. 🎨 レイアウトテンプレートの作成（共通UIとTodo用）
 
 `resources/views/layouts/`
 
@@ -22,6 +22,12 @@
 - `errors.blade.php`：エラー表示用部分テンプレート
 
 👉 すべてのページで共通となるデザイン・構造を定義します。
+
+`resources/views/todo/`　
+- `create.blade.php`：データ作成
+- `edit.blade.php`：編集
+- `edit.blade.php`：Todoのトップ(未完了と完了を切り分けて表示)
+
 
 ---
 
